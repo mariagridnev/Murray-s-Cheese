@@ -1,0 +1,111 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>My Page</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+	<link rel="stylesheet" href="jqm/jquery.mobile-1.1.1.css" />
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+</head> 
+<body> 
+
+<!-- Home Page -->   
+<div data-role="page" id="home">
+
+	<div data-role="header"></div><!-- /header -->
+ 
+	<div data-role="content">	
+		<ul data-role="listview" data-inset="true">
+     		<li><a href="#find">Find Your Cheese</a></li>
+            <li><a href="#type">Choose Cheese <span>By Type</span></a></li>
+            <li><a href="#guide">Murray's Guide to Beverage Pairing</a></li>
+            <li><a href="#about">About Murray's</a></li>	           
+        </ul>		
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<!-- Find Page -->   
+<div data-role="page" id="find">
+
+	<div data-role="header"></div><!-- /header -->
+ 
+	<div data-role="collapsible" data-collapsed="true">	
+		<h3>Cheese Type</h3>
+        	<label><input type="checkbox" name="checkbox-0" />Bloomy: Buttery & Rich</label>
+        	<label><input type="checkbox" name="checkbox-0" />Blue: Punchy & Spicy</label>
+        	<label><input type="checkbox" name="checkbox-0" />Firm: Supplse & Grassy</label>
+        	<label><input type="checkbox" name="checkbox-0" />Fresh: Creamy & Tangy</label>
+        	<label><input type="checkbox" name="checkbox-0" />Hard: Dry & Caramelly</label>
+        	<label><input type="checkbox" name="checkbox-0" />Murray's Cave Aged</label>
+        	<label><input type="checkbox" name="checkbox-0" />Semi-soft: Pliable & Melting</label>
+        	<label><input type="checkbox" name="checkbox-0" />Washing-Rind: Stinky & Intense</label>
+	</div><!-- /collapsible -->
+    
+    <div data-role="collapsible" data-collapsed="true">	
+		<h3>Country</h3>
+       		<label><input type="checkbox" name="checkbox-0" />Austria</label>
+            <label><input type="checkbox" name="checkbox-0" />Canada</label>
+            <label><input type="checkbox" name="checkbox-0" />England</label>
+            <label><input type="checkbox" name="checkbox-0" />France</label>
+            <label><input type="checkbox" name="checkbox-0" />Germany</label>
+            <label><input type="checkbox" name="checkbox-0" />Greece</label>
+            <label><input type="checkbox" name="checkbox-0" />Holland</label>
+            <label><input type="checkbox" name="checkbox-0" />Ireland</label>
+            <label><input type="checkbox" name="checkbox-0" />Italy</label>
+            <label><input type="checkbox" name="checkbox-0" />Portugal</label>
+            <label><input type="checkbox" name="checkbox-0" />Scotland</label>
+            <label><input type="checkbox" name="checkbox-0" />Spain</label>
+            <label><input type="checkbox" name="checkbox-0" />Switzerland</label>
+            <label><input type="checkbox" name="checkbox-0" />USA</label>
+            <label><input type="checkbox" name="checkbox-0" />Various</label>
+
+	</div><!-- /collapsible -->
+    
+    <div data-role="collapsible" data-collapsed="true">	
+		<h3>Milk Type</h3>
+        	<label><input type="checkbox" name="checkbox-0" />Pasteurized</label>
+            <label><input type="checkbox" name="checkbox-0" />Pasteurized Cow</label>
+            <label><input type="checkbox" name="checkbox-0" />Pasteurized Goat</label>
+            <label><input type="checkbox" name="checkbox-0" />Pasteurized Mix</label>
+            <label><input type="checkbox" name="checkbox-0" />Pasteurized Sheep</label>
+            <label><input type="checkbox" name="checkbox-0" />Pasteurized Water Buffalo</label>
+            <label><input type="checkbox" name="checkbox-0" />Raw Cow</label>
+            <label><input type="checkbox" name="checkbox-0" />Raw Goat</label>
+            <label><input type="checkbox" name="checkbox-0" />Raw Mix</label>
+            <label><input type="checkbox" name="checkbox-0" />Raw Sheep</label>
+	</div><!-- /collapsible -->
+    
+    <div data-role="collapsible" data-collapsed="true">	
+		<h3>Rennet Type</h3>
+        	<label><input type="checkbox" name="checkbox-0" />Animal</label>
+            <label><input type="checkbox" name="checkbox-0" />Microbial</label>
+            <label><input type="checkbox" name="checkbox-0" />Vegetarian: Microbial</label>
+            <label><input type="checkbox" name="checkbox-0" />Vegeterian: Thistle</label>
+	</div><!-- /collapsible -->
+
+</div><!-- /page -->
+
+<!-- Type Page -->   
+<div data-role="page" id="type">
+
+	<div data-role="header"></div><!-- /header -->
+ 
+	<div data-role="content">	
+		<ul data-role="listview" data-inset="true">
+     		<li><a href="freshcheeses.html">Fresh Cheese</a></li>
+            <li><a href="#bloomy">Bloomy Cheese</a></li>
+            <li><a href="#soft">Semi-Soft</a></li>
+            <li><a href="#washed">Washed-Rind</a></li>
+            <li><a href="#firm">Firm Cheese</a></li>
+            <li><a href="#hard">Hard Cheese</a></li>
+            <li><a href="#blue">Blue Cheese</a></li>	           
+        </ul>		
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+
+</body>
+</html>
