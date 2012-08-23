@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>My Page</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+	<link rel="stylesheet" href="jqm/jquery.mobile-1.1.1.css" />
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+</head> 
+<body> 
+
+<!-- Home Page -->   
+<div data-role="page" id="white">
+
+	<div data-role="header"></div><!-- /header -->
+ 
+	<div data-role="content">	
+		<ul class="white_wine_list" data-inset="true">
+     		<li>
+            	<h4><a href="#char">Chardonnay</a></h4>
+                <img src="jqm/img/wine/char.jpg" />
+                <p class="desc">Round, rich and smooth with just a hint of oak, a good Chardonnay (we like high acidity often found in a Chablis) finds its match with similarly rich alpine cheeses like Comte or Tete de Moine.</p>
+            </li>
+
+            <li>
+                <h4><a href="#ries">Riesling</a></h4>
+                <img src="jqm/img/wine/ries.jpg" />
+                <p class="desc">Often vilified, seldom chosen, Riesling provides in fact some of the most satisfying pairings when it comes to cheese. Two roads to explore here; with dry Riesling try an earthy cow's milk cheese like Tomme de Savoie and with an off-dry Riesling such as a German Spaetlese, a mild, creamy blue cheese like Fourme d'Ambert or Cashel Blue.</p>
+            </li>
+
+            <li>
+                <h4><a href="#blanc">Sauvignon Blanc</a></h4>
+                <img src="jqm/img/wine/blanc.jpg" />
+                <p class="desc">Crisp, citrusy, grassy aromas and high acidity are the hallmarks of the sauvignon grape; making for a devastatingly delicious combination when it comes to most cheeses. For the brightest fireworks however, seek out dense, peppery goats milk cheeses like Chabichou or Crottin de Chavignol.</p>
+            </li>
+
+            <li>
+                <h4><a href="#pinot">Pinot Grigio</a></h4>
+                <img src="jqm/img/wine/pinot.jpg" />
+                <p class="desc">While Pinot Grigio gets a lot of flak for being a wine for the indecisive (do I want something light and crisp like a Sauvignon Blanc or round and rich like a Chardonnay? Maybe something in the middle!), it can be a serious cheese wine if made well (think pinot gris from Alsace). This "grey" grape goes well with mild, milky cheeses such as Asiago Pressato or mildly pungent, yet creamy cheeses like Taleggio.</p>
+            </li>
+        
+        </ul>		
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<!-- Mozzarella Page -->   
+<div data-role="page" id="char" data-add-back-btn="true">
+
+	<div data-role="header"></div><!-- /header -->
+ 	<h1>Search Results:</h1>
+ 	
+ 	<div data-role="content">	
+		
+        <p>Your search for "Chardonnay Pairing" returned 3 result(s).</p>
+        <ul class="results_list" data-inset="true">
+            <li>
+                <h4><a href="#">Tete de Moine</a></h4>
+                <img src="jqm/img/tete.jpeg" />
+                <p class="desc">If you have a Girolle, you too can shave "the monk's head." A strong raw cow's milk cheese from the Jura Mountains, assertively fruity and full-bodied.</p></br>
+                <p class="price">$25.99/lb</p>
+            </li>
+
+            <li>
+                <h4><a href="#">Murray's Cave Aged Comte Saint Antoine</a></h4>
+                <img src="jqm/img/aged.jpeg" />
+                <p class="desc">This Saint is sent from on high. Murray's selects the fruitiere and age profile for a reliable flavor balance between mellow fruity notes and lightly scalded cream..</p></br>
+                <p class="price">$22.99/lb</p>
+            </li>
+
+            <li>
+                <h4><a href="#">Mahon Curado, Coinga</a></h4>
+                <img src="jqm/img/coinga.jpeg" />
+                <p class="desc">Four to six months of aging in salty and dry conditions on the Spanish island of Minorca result in a unique and powerful cheese: bright, flakey, salty and with the unmistakable tang of vinegar.</p></br>
+                <p class="price">$25.99/lb</p>
+            </li>	
+	
+    	</div><!-- /content -->
+
+</div><!-- /page -->
+
+</body>
+</html>

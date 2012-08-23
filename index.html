@@ -18,7 +18,7 @@
 	<div data-role="content">	
 		<ul data-role="listview" data-inset="true">
      		<li data-icon="none"><a href="#find">Find Your Cheese</a></li>
-            <li><a href="#type">Choose Cheese <span>By Type</span></a></li>
+            <li><a href="#type">Choose Cheese <span>By&nbsp;Type</span></a></li>
             <li><a href="#guide">Murray's <span>Guide to</span> </br>Beverage Pairing</a></li>
             <li><a href="#about">About Murray's</a></li>	           
         </ul>		
@@ -31,7 +31,7 @@
 
 	<div data-role="header"></div><!-- /header -->
  
-	<div data-role="collapsible" data-collapsed="true">	
+	<div data-role="collapsible" data-collapsed="true" data-iconpos="right">	
 		<h3>Cheese Type</h3>
         	<label><input type="checkbox" name="checkbox-0" />Bloomy: Buttery & Rich</label>
         	<label><input type="checkbox" name="checkbox-0" />Blue: Punchy & Spicy</label>
@@ -43,7 +43,7 @@
         	<label><input type="checkbox" name="checkbox-0" />Washing-Rind: Stinky & Intense</label>
 	</div><!-- /collapsible -->
     
-    <div data-role="collapsible" data-collapsed="true">	
+    <div data-role="collapsible" data-collapsed="true" data-iconpos="right">	
 		<h3>Country</h3>
        		<label><input type="checkbox" name="checkbox-0" />Austria</label>
             <label><input type="checkbox" name="checkbox-0" />Canada</label>
@@ -63,7 +63,7 @@
 
 	</div><!-- /collapsible -->
     
-    <div data-role="collapsible" data-collapsed="true">	
+    <div data-role="collapsible" data-collapsed="true" data-iconpos="right">	
 		<h3>Milk Type</h3>
         	<label><input type="checkbox" name="checkbox-0" />Pasteurized</label>
             <label><input type="checkbox" name="checkbox-0" />Pasteurized Cow</label>
@@ -77,14 +77,14 @@
             <label><input type="checkbox" name="checkbox-0" />Raw Sheep</label>
 	</div><!-- /collapsible -->
     
-    <div data-role="collapsible" data-collapsed="true">	
+    <div data-role="collapsible" data-collapsed="true" data-iconpos="right">	
 		<h3>Rennet Type</h3>
         	<label><input type="checkbox" name="checkbox-0" />Animal</label>
             <label><input type="checkbox" name="checkbox-0" />Microbial</label>
             <label><input type="checkbox" name="checkbox-0" />Vegetarian: Microbial</label>
             <label><input type="checkbox" name="checkbox-0" />Vegeterian: Thistle</label>
 	</div><!-- /collapsible -->
-
+    <a href="static.html" data-role="button">SUBMIT</a>
 </div><!-- /page -->
 
 <!-- Type Page -->   
@@ -94,7 +94,7 @@
  
 	<div data-role="content">	
 		<ul data-role="listview" data-inset="true">
-     		<li><a href="freshcheeses.html">Fresh Cheese</a></li>
+     		<li><a href="freshcheeses.html" data-ajax="false">Fresh Cheese</a></li>
             <li><a href="#bloomy">Bloomy Cheese</a></li>
             <li><a href="#soft">Semi-Soft</a></li>
             <li><a href="#washed">Washed-Rind</a></li>
@@ -103,6 +103,56 @@
             <li><a href="#blue">Blue Cheese</a></li>	           
         </ul>		
 	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<div data-role="page" id="guide">
+
+    <div data-role="header"></div><!-- /header -->
+ 
+    <div data-role="content">   
+        <ul data-role="listview" data-inset="true">
+            <li>
+                <a href="white.html" data-ajax="false">White Wine</a>
+                <p>Ask any serious sommelier if they prefer white or red wine with a cheese plate and you'll find that white wins! Here are four of our favoite varietals along with some pairing tips and suggestions:</p>
+            </li>
+            <li>
+                <a href="red.html">Red Wine</a>
+                <p>Red wine has always been the classic choice with cheese and for good reason. The structure and fuller body of red wine lends itself to beautiful matches with the right cheese which tend be of the heartier variety or the luscious triple-cremes. Check out these commonly found grapes and their suggest pairing partners.</p>
+            </li>
+            <li>
+                <a href="beer.html">Beer</a>
+                <p>Beer is the unsung hero of pairing with cheese. From dark, toasty malt driven lagers to ales singing with piney hop bitterness, beer is the most versatile partner for cheese. Here are four popular styles and cheese suggestions to complement them:</p>
+            </li>
+        </ul>       
+    </div><!-- /content -->
+
+</div><!-- /page -->
+
+<div data-role="page" id="about">
+
+    <div data-role="header"></div><!-- /header -->
+ 
+    <div data-role="content">   
+        <h1>Our Businesses</h1>
+        <p>Our mission is to bring you the greatest cheese selection while staying true to our Greenwich Village roots.  A New York City landmark since 1940, we search the globe to find the tastiest cheeses and specialty foods for New Yorkers and the entire country to enjoy.</p>
+
+        <h3>Greenwich Village</h3>
+        <p>
+            Murray’s flagship store on Bleecker Street features a rotating selection of 300 cheeses from all over the world.  Take a peak into the subterranean cheese caves where we age and ripen our growing collection.  Bleecker Street is also home to Murray’s Melts, our grilled cheese counter.</br>
+
+            <a class="web" href="http://www.murrayscheese.com/stores.asp">http://www.murrayscheese.com/stores.asp</a></br>
+            Phone 212-243-3289
+         </p> 
+
+        <h3>Grand Central Market</h3>
+        <p>
+            Midtown cheeselovers enjoy the same delicious selection of cheese, hand-crafted charcuterie, rare olive oils, fresh pastas, artisanal chocolates and much more in the Market at Grand Central.</br>
+
+            <a class="web" href="http://www.murrayscheese.com/stores.asp">http://www.murrayscheese.com/stores.asp</a></br>
+            Phone 212-922-1540
+         </p>             
+    </div><!-- /content -->
 
 </div><!-- /page -->
 
